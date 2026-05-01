@@ -114,4 +114,91 @@ apple10
 - Variables store data  
 - Data types define type of data  
 - Operators perform operations  
-- Type conversion is important  
+- Type conversion is important 
+-
+-
+- 
+
+## Day one common Mistakes & Fix 
+
+###  Mistake 1: Adding string and integer
+
+name = "apple"
+number = 10
+
+print(name + number)
+
+ Error: TypeError
+
+###  Reason:
+Python cannot add different data types directly (string + integer)
+
+###  Fix:
+
+print(name + str(number))
+
+ Output:
+apple10
+
+---
+
+###  Mistake 2: Wrong type assumption
+
+x = "10"
+y = 5
+
+print(x + y)
+
+ Error: TypeError
+
+### 🔍 Reason:
+"x" is a string, not a number
+
+###  Fix:
+
+print(int(x) + y)
+
+ Output:
+15
+
+---
+
+### Mistake 3: Division confusion
+
+a = 5
+b = 2
+
+print(a / b)
+
+Output: 2.5 (float)
+
+### 🔍 Reason:
+Normal division always returns float
+
+###  Fix (if integer needed):
+
+print(a // b)
+
+ Output:
+2
+
+---
+
+###  Mistake 4: Boolean confusion
+
+print(True + True)
+
+ Output: 2
+
+### 🔍 Reason:
+True = 1 and False = 0 in Python
+
+###  Understanding:
+True + True = 1 + 1 = 2
+
+---
+
+##  Summary
+- Always check data types  
+- Use type conversion when needed  
+- Read error messages carefully  
