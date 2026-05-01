@@ -51,11 +51,11 @@ type(price)  → float
 ## 4. Operators
 
 ### Arithmetic Operators
-+  → addition  
--  → subtraction  
-*  → multiplication  
-/  → division  
-
+  +  → addition  
+  -  → subtraction  
+  *  → multiplication  
+  /  → division  
+   
 Example:
 a = 2  
 b = 5  
