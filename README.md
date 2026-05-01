@@ -13,3 +13,8 @@ I am learning Python and Machine Learning step by step.
 - Notes
 - Code examples
 - Small projects
+
+## Day 1 Work
+- notes.md for clean theory notes
+- practice.py for small Python examples
+- day1_python_practice.ipynb for detailed notebook practice
