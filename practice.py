@@ -17,33 +17,83 @@ def add(a, b):
 
 print(add(2, 3))
 
-###Day 2
-# String
+# Day 2 Practice - Strings, Input, Indexing, Slicing, Type Conversion
+
+# -------------------------------
+# 1. String Basics
+# -------------------------------
 name = "Ankit"
-print(name)
+print("Name:", name)
+print("Type:", type(name))
 
-# Indexing
+
+# -------------------------------
+# 2. Indexing
+# -------------------------------
 word = "PYTHON"
-print(word[0])
-print(word[-1])
 
-# Slicing
+print("First character:", word[0])
+print("Fourth character:", word[3])
+print("Last character:", word[-1])
+print("Second last:", word[-2])
+
+
+# -------------------------------
+# 3. Slicing
+# -------------------------------
 text = "Hello"
-print(text[0:4])
-print(text[:3])
-print(text[3:])
 
-# String methods
-msg = "  Hello Python  "
-print(msg.strip().upper())
+print("Slice 0:4 ->", text[0:4])
+print("First 3 ->", text[:3])
+print("From index 3 ->", text[3:])
+print("Full copy ->", text[:])
 
-# Reverse
+
+# -------------------------------
+# 4. String Methods
+# -------------------------------
+msg = "   Hello Python   "
+
+print("Upper:", msg.upper())
+print("Lower:", msg.lower())
+print("Strip:", msg.strip())
+
+sentence = "I like Apple"
+print("Replace:", sentence.replace("Apple", "Mango"))
+
+# Method chaining
+clean_text = msg.strip().upper()
+print("Cleaned:", clean_text)
+
+
+# -------------------------------
+# 5. Reverse String
+# -------------------------------
 name = "Rahul"
-print(name[::-1])
+print("Reversed:", name[::-1])
 
-# Input and conversion
-num1 = input("First number: ")
-num2 = input("Second number: ")
 
+# -------------------------------
+# 6. Input and Type Conversion
+# -------------------------------
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+
+# Wrong (string join)
 print("Joined:", num1 + num2)
-print("Sum:", int(num1) + int(num2))
+
+# Correct (numeric addition)
+sum_result = int(num1) + int(num2)
+print("Sum:", sum_result)
+
+
+# -------------------------------
+# 7. Extra Thinking Example
+# -------------------------------
+x = "10"
+y = 5
+
+# print(x + y)  # This gives error
+
+print("Fixed:", int(x) + y)
+
