@@ -1,3 +1,4 @@
+###Day
 # Example 1
 x = 5
 print(x)
@@ -15,3 +16,34 @@ def add(a, b):
     return a + b
 
 print(add(2, 3))
+
+###Day 2
+# String
+name = "Ankit"
+print(name)
+
+# Indexing
+word = "PYTHON"
+print(word[0])
+print(word[-1])
+
+# Slicing
+text = "Hello"
+print(text[0:4])
+print(text[:3])
+print(text[3:])
+
+# String methods
+msg = "  Hello Python  "
+print(msg.strip().upper())
+
+# Reverse
+name = "Rahul"
+print(name[::-1])
+
+# Input and conversion
+num1 = input("First number: ")
+num2 = input("Second number: ")
+
+print("Joined:", num1 + num2)
+print("Sum:", int(num1) + int(num2))
