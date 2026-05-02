@@ -151,7 +151,7 @@ print(x + y)
 
  Error: TypeError
 
-### 🔍 Reason:
+###  Reason:
 "x" is a string, not a number
 
 ###  Fix:
@@ -172,7 +172,7 @@ print(a / b)
 
 Output: 2.5 (float)
 
-### 🔍 Reason:
+###  Reason:
 Normal division always returns float
 
 ###  Fix (if integer needed):
@@ -190,7 +190,7 @@ print(True + True)
 
  Output: 2
 
-### 🔍 Reason:
+###  Reason:
 True = 1 and False = 0 in Python
 
 ###  Understanding:
@@ -201,4 +201,92 @@ True + True = 1 + 1 = 2
 ##  Summary
 - Always check data types  
 - Use type conversion when needed  
-- Read error messages carefully  
+- Read error messages carefully
+
+
+#### Day 2 - Strings, Input, Indexing, Slicing
+
+---
+
+## String
+A string is text inside quotes.
+
+Example:
+name = "Ankit"
+
+---
+
+## print()
+Used to display output.
+
+Example:
+print("Hello")
+
+---
+
+## input()
+Used to take input from user.
+It returns data as string.
+
+Example:
+name = input("Enter your name: ")
+
+---
+
+## Indexing
+Indexing means accessing one character from a string.
+
+Example:
+word = "PYTHON"
+
+word[0] → P  
+word[-1] → N  
+
+---
+
+## Slicing
+Used to get part of a string.
+
+Example:
+text = "Hello"
+
+text[0:4] → Hell  
+text[:3] → Hel  
+text[3:] → lo  
+
+---
+
+## String Methods
+upper() → capital letters  
+lower() → small letters  
+strip() → remove spaces  
+replace() → change text  
+
+Example:
+msg = " hello "
+msg.strip().upper()
+
+---
+
+## Type Conversion
+input() gives string by default.
+
+To use numbers:
+int() → convert to number  
+str() → convert to string  
+
+Example:
+age = int(input("Enter age: "))
+print(age + 5)
+
+---
+
+## Common Mistake 
+
+num1 = input("First: ")
+num2 = input("Second: ")
+
+print(num1 + num2) ❌ (joins text)
+
+Fix:
+print(int(num1) + int(num2)) 
