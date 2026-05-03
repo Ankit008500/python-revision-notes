@@ -290,3 +290,38 @@ print(num1 + num2) ❌ (joins text)
 
 Fix:
 print(int(num1) + int(num2)) 
+
+
+
+# Day 3 - If Else
+
+## Concepts
+
+### If Else
+Used to make decisions based on conditions.
+
+Example:
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+---
+
+### Elif
+Used when there are multiple conditions.
+
+Example:
+if marks >= 90:
+    print("A")
+elif marks >= 75:
+    print("B")
+else:
+    print("C")
+
+---
+
+## Key Points
+- Conditions must be True or False
+- Indentation is important
+- Only one block runs in if-elif-else
