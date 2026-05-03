@@ -1,4 +1,4 @@
-###Day
+###Day 1
 # Example 1
 x = 5
 print(x)
@@ -96,4 +96,26 @@ y = 5
 # print(x + y)  # This gives error
 
 print("Fixed:", int(x) + y)
+
+
+
+# Day 3 - If Else Practice
+
+# Even or Odd
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+
+# Largest of two numbers
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+
+if a > b:
+    print("A is greater")
+else:
+    print("B is greater")
 
