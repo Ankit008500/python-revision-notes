@@ -119,3 +119,41 @@ if a > b:
 else:
     print("B is greater")
 
+
+
+# Day 4 - Loops Practice
+
+# 1. Print numbers from 1 to 10
+for i in range(1, 11):
+    print(i)
+
+
+# 2. Print even numbers from 1 to 10
+for i in range(1, 11):
+    if i % 2 == 0:
+        print(i)
+
+
+# 3. Find sum of numbers from 1 to n
+n = int(input("Enter a number: "))
+total = 0
+
+for i in range(1, n + 1):
+    total = total + i
+
+print("Sum:", total)
+
+
+# 4. Print multiplication table
+n = int(input("Enter a number: "))
+
+for i in range(1, 11):
+    print(n, "x", i, "=", n * i)
+
+
+# 5. Countdown using while loop
+i = 5
+
+while i > 0:
+    print(i)
+    i = i - 1
