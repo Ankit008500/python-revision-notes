@@ -325,3 +325,70 @@ else:
 - Conditions must be True or False
 - Indentation is important
 - Only one block runs in if-elif-else
+
+
+
+# Day 4 - Loops
+
+---
+
+## What is a Loop?
+A loop is used to repeat a block of code multiple times.
+
+---
+
+## Types of Loops
+
+### 1. for loop
+Used when we know how many times we want to repeat something.
+
+Example:
+for i in range(5):
+    print(i)
+
+---
+
+### 2. while loop
+Used when we want to repeat code based on a condition.
+
+Example:
+count = 0
+
+while count < 5:
+    print(count)
+    count += 1
+
+---
+
+## range()
+
+range() is used to generate a sequence of numbers.
+
+- range(5) → 0 to 4  
+- range(1, 5) → 1 to 4  
+
+The last value is not included.
+
+---
+
+## Key Points
+
+- Loops are used for repetition  
+- for loop → fixed number of times  
+- while loop → condition-based  
+- range() helps generate numbers  
+- Indentation is very important  
+
+---
+
+## Common Mistake
+
+Wrong:
+while count < 5:
+print(count)
+
+Correct:
+while count < 5:
+    print(count)
+
+Without indentation, Python will give an error.
