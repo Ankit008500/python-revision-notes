@@ -392,3 +392,87 @@ while count < 5:
     print(count)
 
 Without indentation, Python will give an error.
+
+
+
+# Day 5 - Patterns
+
+---
+
+## What is a Pattern?
+
+A pattern is printing shapes (stars, numbers, etc.) using loops.
+
+---
+
+## Key Idea
+
+- Outer loop → controls rows  
+- Inner loop → controls columns  
+
+If the inner loop does not depend on the outer loop,
+the same pattern will repeat on every row.
+
+---
+
+## Types of Patterns
+
+### 1. Star Pattern
+*
+**
+***
+****
+*****
+
+### 2. Number Pattern
+1
+12
+123
+1234
+
+### 3. Reverse Pattern
+54321
+4321
+321
+21
+1
+
+### 4. Pyramid Pattern
+    *
+   * *
+  * * *
+ * * * *
+* * * * *
+
+---
+
+## Important Concepts
+
+- Nested loops are required  
+- range() controls how many times loop runs  
+- end="" keeps output on same line  
+- print() moves to next line  
+
+---
+
+## Common Mistakes
+
+1. Inner loop not depending on outer loop  
+→ same line repeats  
+
+2. Wrong range values  
+→ pattern shape becomes incorrect  
+
+3. Forgetting end=""  
+→ output goes to next line  
+
+4. Confusion between rows and columns  
+
+---
+
+## Summary
+
+- Patterns are built using nested loops  
+- Outer loop controls rows  
+- Inner loop controls columns  
+- Logic is more important than memorizing  
