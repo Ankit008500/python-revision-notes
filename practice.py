@@ -157,3 +157,64 @@ i = 5
 while i > 0:
     print(i)
     i = i - 1
+
+
+# Day 5 - Pattern Practice
+
+
+# -----------------------------------
+# 1. Star Triangle
+# -----------------------------------
+# Print increasing star pattern
+
+rows = 5
+
+for i in range(1, rows + 1):        # controls rows
+    for j in range(i):              # controls columns
+        print("*", end="")
+    print()
+
+
+# -----------------------------------
+# 2. Number Increasing Pattern
+# -----------------------------------
+# Print numbers in increasing form
+
+rows = 5
+
+for i in range(1, rows + 1):
+    for j in range(1, i + 1):
+        print(j, end="")
+    print()
+
+
+# -----------------------------------
+# 3. Number Decreasing Pattern
+# -----------------------------------
+# Print decreasing numbers
+
+rows = 5
+
+for i in range(rows, 0, -1):
+    for j in range(i, 0, -1):
+        print(j, end="")
+    print()
+
+
+# -----------------------------------
+# 4. Pyramid Pattern
+# -----------------------------------
+# Right aligned pyramid using spaces + stars
+
+rows = 7
+
+for i in range(1, rows + 1):
+    # print spaces
+    for j in range(rows - i):
+        print(" ", end="")
+    
+    # print stars
+    for k in range(i):
+        print("*", end=" ")
+    
+    print()
