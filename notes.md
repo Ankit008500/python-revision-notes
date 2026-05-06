@@ -475,4 +475,44 @@ the same pattern will repeat on every row.
 - Patterns are built using nested loops  
 - Outer loop controls rows  
 - Inner loop controls columns  
-- Logic is more important than memorizing  
+- Logic is more important than memorizing
+
+
+
+
+
+
+# Day 6 - Collections
+
+## List
+A list is ordered and changeable.
+
+Example:
+fruits = ["apple", "banana", "mango"]
+
+## Tuple
+A tuple is ordered and not changeable.
+
+Example:
+colors = ("red", "green", "blue")
+
+## Set
+A set is unordered and stores unique values only.
+
+Example:
+items = {"apple", "banana", "apple"}
+
+## Dictionary
+A dictionary stores key-value pairs.
+
+Example:
+student = {
+    "name": "Ankit",
+    "age": 20
+}
+
+## Important Points
+- List is changeable
+- Tuple is not changeable
+- Set removes duplicates
+- Dictionary uses keys to access values
