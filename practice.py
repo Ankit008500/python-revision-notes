@@ -218,3 +218,35 @@ for i in range(1, rows + 1):
         print("*", end=" ")
     
     print()
+
+
+
+# Day 6 - Collections Practice
+
+# List
+fruits = ["apple", "banana", "mango"]
+fruits.append("grapes")
+fruits.insert(1, "orange")
+fruits.remove("banana")
+fruits.sort()
+print("List:", fruits)
+
+# Tuple
+colors = ("red", "green", "blue")
+print("Tuple:", colors)
+
+# Set
+items = {"apple", "banana", "apple", "mango"}
+print("Set:", items)
+
+# Dictionary
+student = {
+    "name": "Ankit",
+    "age": 20,
+    "course": "Python"
+}
+print("Dictionary:", student)
+
+student["age"] = 21
+student["gender"] = "Male"
+print("Updated Dictionary:", student)
