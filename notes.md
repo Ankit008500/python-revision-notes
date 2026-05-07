@@ -516,3 +516,45 @@ student = {
 - Tuple is not changeable
 - Set removes duplicates
 - Dictionary uses keys to access values
+
+# Day 7 - Functions
+
+## What is a Function?
+A function is a reusable block of code that performs a specific task.
+
+## Why Functions Are Useful
+- avoid repeated code
+- make programs cleaner
+- improve readability
+- organize logic properly
+
+## Function Syntax
+def hello():
+    print("Hello")
+
+## Parameters
+Parameters are values passed into a function.
+
+Example:
+def greet(name):
+    print("Hello", name)
+
+## Return Value
+return sends a value back from a function.
+
+Example:
+def add(a, b):
+    return a + b
+
+## Default Argument
+A default argument gives a value if nothing is passed.
+
+Example:
+def welcome(name="Guest"):
+    print("Welcome", name)
+
+## Important Points
+- use def to define functions
+- use parameters to pass data
+- use return when output is needed later
+- functions help reuse logic
