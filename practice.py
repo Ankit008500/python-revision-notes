@@ -301,3 +301,78 @@ def factorial(n):
     return result
 
 print(factorial(5))
+
+# Day 7.2 - OOP Practice
+
+# Class and object
+class Phone:
+    name = "Samsung"
+
+phone1 = Phone()
+print(phone1.name)
+
+# Attributes and methods
+class Mobile:
+    name = "iPhone"
+    color = "Black"
+
+    def make_call(self):
+        print("Making a call")
+
+    def play_game(self):
+        print("Playing a game")
+
+m1 = Mobile()
+print(m1.name)
+print(m1.color)
+m1.make_call()
+m1.play_game()
+
+# Constructor
+class Employee:
+    def __init__(self, name, age, salary, gender):
+        self.name = name
+        self.age = age
+        self.salary = salary
+        self.gender = gender
+
+    def show_details(self):
+        print("The name of employee is", self.name)
+        print("The age of employee is", self.age)
+        print("The salary of employee is", self.salary)
+        print("The gender of employee is", self.gender)
+
+e1 = Employee("Raghu", 25, 70000, "Male")
+e1.show_details()
+
+# Student class
+class Student:
+    def __init__(self, name, age, marks):
+        self.name = name
+        self.age = age
+        self.marks = marks
+
+    def show_result(self):
+        if self.marks >= 50:
+            print(self.name, "has passed")
+        else:
+            print(self.name, "has failed")
+
+s1 = Student("Ankit", 20, 78)
+s1.show_result()
+
+# Car class
+class Car:
+    def __init__(self, brand, mileage, cost):
+        self.brand = brand
+        self.mileage = mileage
+        self.cost = cost
+
+    def show_details(self):
+        print("I am a car")
+        print("Brand:", self.brand)
+        print("Mileage:", self.mileage)
+        print("Cost:", self.cost)
+
+c1 = Car("BMW", 100, 2000)
+c1.show_details()
