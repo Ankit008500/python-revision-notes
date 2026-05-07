@@ -558,3 +558,33 @@ def welcome(name="Guest"):
 - use parameters to pass data
 - use return when output is needed later
 - functions help reuse logic
+
+
+# Day 7.2 - OOP Basics
+
+## What is OOP?
+Object Oriented Programming is a way of writing code using classes and objects.
+
+## Class
+A class is a blueprint for creating objects.
+
+## Object
+An object is created from a class.
+
+## Attributes
+Attributes store data inside an object.
+
+## Methods
+Methods are functions inside a class.
+
+## Constructor
+A constructor is a special method that runs automatically when an object is created.
+
+## self
+self refers to the current object.
+
+## Important Points
+- use class to create a class
+- use __init__ for constructor
+- use self inside methods
+- create objects to use class features
