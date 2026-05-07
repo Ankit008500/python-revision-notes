@@ -250,3 +250,54 @@ print("Dictionary:", student)
 student["age"] = 21
 student["gender"] = "Male"
 print("Updated Dictionary:", student)
+
+
+
+# Day 7 - Functions Practice
+
+# Basic function
+def hello():
+    print("Hello Mitra")
+
+hello()
+
+# Function with parameter
+def greet(name):
+    print("Hello", name)
+
+greet("Ankit")
+
+# Function with return value
+def add10(x):
+    return x + 10
+
+print(add10(20))
+
+# Function with two parameters
+def add(a, b):
+    return a + b
+
+print(add(45, 65))
+
+# Even or odd checker
+def evenodd(x):
+
+    if x % 2 == 0:
+        print(x, "is even")
+
+    else:
+        print(x, "is odd")
+
+evenodd(2883)
+
+# Factorial function
+def factorial(n):
+
+    result = 1
+
+    for i in range(1, n + 1):
+        result *= i
+
+    return result
+
+print(factorial(5))
