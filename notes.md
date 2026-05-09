@@ -588,3 +588,40 @@ self refers to the current object.
 - use __init__ for constructor
 - use self inside methods
 - create objects to use class features
+
+
+ 
+ 
+ # Day 8 - File Handling, Exception Handling and Modules
+
+## File Handling
+File handling is used to read, write and update files.
+
+Modes:
+- r → read
+- w → write
+- a → append
+
+Functions:
+- open()
+- read()
+- write()
+- close()
+
+## Exception Handling
+Exception handling prevents program crashes.
+
+Keywords:
+- try
+- except
+- finally
+
+## Modules
+Modules help reuse code.
+
+Examples:
+- math
+- random
+
+## Import
+import is used to use modules in Python.
