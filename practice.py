@@ -376,3 +376,42 @@ class Car:
 
 c1 = Car("BMW", 100, 2000)
 c1.show_details()
+
+
+
+# Day 8 - Practice
+
+# Write file
+file = open("sample.txt", "w")
+
+file.write("Hello Python")
+
+file.close()
+
+# Read file
+file = open("sample.txt", "r")
+
+print(file.read())
+
+file.close()
+
+# Exception handling
+try:
+
+    num = int(input("Enter number: "))
+
+    print(num)
+
+except:
+
+    print("Invalid input")
+
+# Math module
+import math
+
+print(math.sqrt(36))
+
+# Random module
+import random
+
+print(random.randint(1, 5))
